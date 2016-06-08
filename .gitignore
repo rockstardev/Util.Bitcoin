@@ -1,0 +1,89 @@
+#ignore thumbnails created by windows
+Thumbs.db
+#Ignore files build by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+
+#Visual Studio Added
+bin/
+*.lib
+*.sbr
+*.resharper.user
+*.dotCover
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+App_Data/
+.DS_Store
+*.resharper.user
+*.suo
+*.user
+NuGet/
+build/
+.vs/
+
+## NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# If using the old MSBuild-Integrated Package Restore, uncomment this:
+#!**/packages/repositories.config
+
+##Eclipse
+.metadata
+gen/
+.svn/
+.settings/
+
+#Idea
+.idea/
+
+
+##
+#Project 
+##
+
+#App Project
+Solution/PennyRaffle.App/DataRoot/*
+!Solution/PennyRaffle.App/DataRoot/.gitignore
+Solution/PennyRaffle.App/assets-syar/sass/prepros.cfg
+Solution/PennyRaffle.App/assets-syar/sass/main.css.map
+Solution/PennyRaffle.App/bower_components/
+
+
+#DataRoot folders
+Solution/PennyRaffle.App/DataRoot/*
+!Solution/PennyRaffle.App/DataRoot/.gitignore
+Solution/PennyRaffle.Admin/DataRoot/*
+!Solution/PennyRaffle.Admin/DataRoot/.gitignore
+
+
+.sass-cache
+
+## Change 
+GeoLiteCity.dat
+Solution/PennyRaffle.App/ScriptsApp/langs/stag/
+Solution/PennyRaffle.Admin/bower_components/
+
+Solution/PennyRaffle.Admin/ScriptsApp/langs/server/
+Solution/PennyRaffle.App/ScriptsApp/langs/server/en.json
