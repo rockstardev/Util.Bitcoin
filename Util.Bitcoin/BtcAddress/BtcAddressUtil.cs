@@ -19,7 +19,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Drawing;
 using System.Security.Cryptography;
 using System.IO;
 using Org.BouncyCastle.Asn1;
